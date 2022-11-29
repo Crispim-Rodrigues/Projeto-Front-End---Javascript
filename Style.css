@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+
+section.main{
+    background: url('Images/HERO BACKGROUND.svg');
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    padding: 20px 0 80px 0;
+    
+}
+.menu{
+    display: flex;
+    width: 100%;
+}
+.logomenu{
+    width: 30%;
+}
+.itens-menu{
+    width: 70%;
+    text-align: right;
+}
+.itens-menu a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.itens-menu a:hover{
+    border-bottom: 3px solid #FFDD33 ;
+
+}
+
+.itens-menu a.contact-btn{
+    background-color: #0F3FD3;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-bottom: none;
+}
+.mockup{
+    text-align: center;
+    padding-top: 70px;
+    display: flex;width: 100%;color: white;flex-wrap: wrap;
+}
+.mockup h1{
+    width: 100%;
+    font-weight: lighter;
+    font-size: xxx-large ;
+
+}
+.mockup p{width: 100%; padding-top: 20px;}
+.mockup img{
+    padding-top: 40px;
+    width: 100%;
+    top: 405px;
+    left: 501px;
+    max-height: 500px;  
+}
+.marcas{
+    margin: 30px;
+    margin-bottom: 70px;
+    margin-top: 90px;
+}
+.marcas .center img{
+    width: calc(100%/5);
+    
+}
+.diferenciais{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.porque-nos .center{
+    max-width: 1280px;
+}
+.porque-nos{
+    height: 100vh;
+    background-color: #FBFCFE;
+    padding: 40px 0;
+}
+.box-diferenciais{
+    width: 31%;
+    border-radius: 16px;
+    margin: 0 calc(7%/6);
+    box-shadow: 0px 20px 40px #2426721C;
+    padding: 40px;
+    background-color: #FFFFFF;
+}
+.diferenciais > h2{
+    width: 100%;
+    font-size: xxx-large;
+    text-align: center;
+    margin: 10px;
+    margin-top: 40px;
+}
+.porque-nos .center .diferenciais > p{
+    width: 100%;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #7E92AC;
+}
+.box-diferenciais h3{
+    font-size:  large;
+    color: black;
+    margin: 20px 0;
+    margin-top: 0;
+}
+.box-diferenciais p{
+    font-size:  13px;
+    color: #7E92AC;
+    margin-bottom: 20px;
+    
+}
+.box-diferenciais img{
+    background: transparent;
+    width: 80px;
+}
+.cta{
+    background-image: url('Images/BANNER IMG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+    padding: 20px 5px;
+    text-align: center;
+    color: white;
+
+    
+}
+.cta h1{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.cta h4{
+    margin: 16px ;
+    margin-top: 0;
+    font-weight: lighter;
+    padding: 30px;
+    font-size: medium;
+}
+.cta a{
+    background-color: #FFDD33;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-weight: 900;
+    color: #0F3FD3;
+    font-size: 16px; 
+}
+
+
+
+
+.beneficios .center{
+    max-width: 1280px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.w50{
+    width: 50%;
+}
+.w50 > img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px #2426721C;
+    
+}
+.pc{max-height: 500px;
+    width: 100%;
+
+}
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.checklist{
+    width: 15%;
+    text-align: center;
+    margin: 25px 0;
+}
+.checklist img{
+    max-height: 60px;
+    padding: 15px 0;
+    padding-right: 10px;
+}
+.lista p{
+    width: 85%;
+    min-width: 80%;
+    margin: 25px 0;
+    font-size: smaller;
+    color: #7E92AC;
+    padding: 15px 0;
+    padding-right: 50px;
+
+}
+
+
+.beneficios .center div a{
+    background-color: #0F3FD3;;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-weight: 900;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.w50 h2{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.submit{
+    width: 100%;
+}
+
+
+section.depoimentos{
+    height: 100vh;
+    background-color: #FBFCFE;
+    padding: 40px 0;
+    margin-top: 100px;
+}
+section.depoimentos > h1{
+    text-align: center;
+    font-size: 50px;
+}
+.container-slider{
+    overflow: hidden;
+    padding: 40px;
+}
+.container-slider-single{
+    float: left;
+    background-color:white;
+    text-align: center;
+    padding:15px;
+    border-radius:10px;
+}
+.container-slider-single span{
+    color:#7E92AC;
+    
+}
+.container-slider-single p{
+    margin:15px 0;
+    color:#7E92AC;
+    font-size: 14px;
+}
+
+.slick-slide {
+    margin-left:27px;
+
+  }
+
+  /* the parent */
+  .slick-list {
+    margin-left:-27px;
+   
+  }
+
+/****SLICK SLIDER****/
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #255AFF;
+	color: #255AFF;
+}
+
+.slick-slide:focus { outline: none; }
+/*fim do slick-Slide*/
+/* inicio do entre em contato */
+section.contato{
+    height: 100vh;
+    padding: 40px 0;
+    text-align: center;
+}
+section.contato h1{
+    font-size: 50px;
+    padding: 20px 20px;
+    width: 100%;
+}
+.contato ::placeholder{
+    color: #7E92AC;
+    font-size: 16px;
+}
+.contato input[type=text],
+.contato input[type=email]{
+    color: #7E92AC;
+    margin: 10px 0;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    height: 60px;
+    width: 100%;
+    background-color: #FCFDFF;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+.contato textarea{
+    color: #7E92AC;
+    margin: 10px 0;
+    border: 1px solid #C3CCE8;
+    width: 100%;
+    resize: vertical;
+    background-color: #FCFDFF;
+    height: 200px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.center form{
+    width: 100%;
+}
+.contato input[type=submit]{
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    width: 100%;
+    background-color:#255AFF;
+    font-weight: bold;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.contato input:focus,
+.contato textarea:focus{
+    outline: none;
+}
+/* fim do entre em contato */
+/* inicio do footer */
+footer{
+    background-color: #255AFF;
+}
+footer > div.center > div.itens-menu{
+    width:  70%;
+    height: 100%;
+    padding: 30px 0;
+}
+.footer{
+    width: 30%;
+    padding:  30px 0;
+    color: white;
+    font-weight: bold;
+    text-align: start;
+    margin: auto;
+
+}
+/* fim do footer */
+/* logo mobile */
+.itens-menu-mobile{
+    display: none;
+}
+.menu-mobile{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .box-diferenciais{
+        width: 100%;
+        margin: auto 10%;
+        margin-bottom: 10%;
+
+    }
+    .marcas .center img{
+        width: 100%;
+        padding: 0 10%;
+
+    }
+    .marcas .center{
+        text-align: center;
+    }
+    .marcas{margin-top: 0;}
+    .w50{
+        width: 100%;
+    }
+    .beneficios .center{
+        flex-direction: column-reverse;
+    }
+    .beneficios .center h2{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .lista p{
+        padding: 10px 0;
+    }
+    .lista img{
+        margin: 0 4px;
+        padding: 10px 0;
+    }
+    .submit{
+        text-align: center;
+    } 
+    .itens-menu{
+        display: none;
+    }
+    .footer{
+        width: 100%;
+        text-align: center;
+    }
+    .menu{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .logomenu{
+        width: 60%;
+    }
+    .itens-menu-mobile{
+        width: 40%;
+        display: flex;
+        text-align: end;
+        display: block;
+        padding: 2% 0 2% 30%;
+    }
+    .itens-menu-mobile img{
+        cursor: pointer;
+    }
+  
+    .show{
+        transition: 5s;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        top: 90px;
+        background-color: #255AFF;
+        display: block;
+        position: fixed;
+        scroll-snap-type: none;
+    }
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin: 10px 50px;
+        text-decoration: none;
+        color: white;
+        font-size: x-large;
+        
+    }
+    .menu-mobile a:hover{
+        border-bottom: 2px solid yellow;
+    }
+    .menufixed{
+        width: 100vw;
+        height:  10000vh;
+        background-color: #255AFF;
+    }
+    .fixed{
+        overflow-y: hidden;
+    }
+    .porque-nos{
+        height: 200vh;
+    }
+}
+    
